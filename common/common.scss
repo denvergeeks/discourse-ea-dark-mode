@@ -42,17 +42,32 @@ body.static-login .login-welcome {
     background: #686881 !important; /* Dark Mode */
 }
 
-.sidebar-section-wrapper .sidebar-section-content {
-    padding-left: 2em;
+#main-outlet {
+    background: rgb(28 31 43 / 50%); /* Dark Mode */
 }
 
 body.has-sidebar-page #main-outlet-wrapper {
     gap: 0;
 }
 
+.list-controls {
+    background: var(--d-content-background);
+    padding-left: .5em;
+}
+
+.sidebar-section-wrapper .sidebar-section-content {
+    padding-left: 2em;
+}
+
+/* 
+body.has-sidebar-page #main-outlet-wrapper {
+    gap: 0;
+}
+
 #main-outlet {
-    background: rgb(28 31 43 / 50%); /* Dark Mode */
+    background: rgb(28 31 43 / 50%);
     padding-top: 1.5em;
     padding-left: 1.5em;
     padding-right: 1.5em;
 }
+*/
